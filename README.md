@@ -19,5 +19,6 @@ As the PWM module can only generate square wave pulse, which in the frequency do
 
 There are multiple way to fetch the wave amplitude values from the look up table to the PWM register, however, using TIMER to trigger the DMA module is absolutely the best option as it prevent the main CPU from overloading.
 
-
+## References:
+1. Khaled Magdy, STM32 ARM tutorial series, https://deepbluembedded.com/stm32-change-pwm-duty-cycle-with-dma-for-sine-wave-generation/.
 
